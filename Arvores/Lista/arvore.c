@@ -70,6 +70,7 @@ void main_ex_01(Arvore *a)
   imprime_pos_ordem(a);
   printf("\n");
 }
+
 int pertence_arv(Arvore *a, char c)
 {
   if (!is_empty(a))
@@ -119,7 +120,7 @@ int calcula_altura_arvore(Arvore *a)
 
 void main_ex_04(Arvore *a)
 {
-  printf("A árvore tem altura %d .\n", calcula_altura_arvore(a));
+  printf("A árvore tem altura %d .\n", calcula_altura_arvore(NULL));
 }
 
 int e_folha(Arvore *a)
@@ -154,7 +155,7 @@ int main(int argc, char **argv)
   putchar('\n');
   main_ex_03(a);
   putchar('\n');
-  main_ex_04(a);
+  main_ex_04(a); // 7.5
   putchar('\n');
   main_ex_05(a);
   destroi_arv(a);

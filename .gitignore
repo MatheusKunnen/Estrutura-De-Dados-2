@@ -1,2 +1,4 @@
 *.pdf
 *.txt
+.DS_Store
+.vs_code
