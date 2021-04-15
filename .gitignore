@@ -1,4 +1,8 @@
 *.pdf
 *.txt
+*.DS_Store
+./.vs_code
+Heaps/heapsort
+FilasDePrioridade/min_heap
+FilasDePrioridade/max_heap
 .DS_Store
-.vs_code
